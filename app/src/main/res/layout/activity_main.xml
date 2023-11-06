@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+
+        android:id="@+id/L3N1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </View>
+
+
+
+
+
+
+
+
+
+    <View
+        android:id="@+id/L4N2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintStart_toEndOf="@+id/L3N1"
+        app:layout_constraintTop_toBottomOf="@+id/L3N1"
+        >
+    </View>
+
+
+    <View
+        android:id="@+id/L4N1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintEnd_toStartOf="@+id/L3N1"
+        app:layout_constraintTop_toBottomOf="@+id/L3N1"
+        >
+    </View>
+
+    <View
+        android:id="@+id/L2N1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@+id/L3N1"
+        app:layout_constraintEnd_toStartOf="@+id/L3N1"
+        >
+    </View>
+
+    <View
+        android:id="@+id/L2N2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@+id/L3N1"
+        app:layout_constraintStart_toEndOf="@id/L3N1"
+        >
+    </View>
+
+
+    <View
+        android:id="@+id/L1N1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        app:layout_constraintStart_toEndOf="@id/L2N1"
+        app:layout_constraintBottom_toTopOf="@id/L2N2"
+        >
+    </View>
+
+
+    <View
+        android:id="@+id/L5N2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/L4N1"
+        app:layout_constraintEnd_toStartOf="@id/L4N2"
+        >
+    </View>
+
+    <View
+        android:id="@+id/L5N3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/L4N2"
+        app:layout_constraintStart_toEndOf="@+id/L4N2"
+        >
+    </View>
+
+    <View
+        android:id="@+id/L5N1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@color/purple_200"
+        app:layout_constraintTop_toBottomOf="@id/L4N1"
+        app:layout_constraintEnd_toStartOf="@id/L4N1"
+        >
+    </View>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
